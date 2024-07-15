@@ -1,0 +1,407 @@
+{
+    "flightTypeCode": "charter",
+    "flightScheduledId": "8933-2024-05-15-DEN",
+    "flightOperationalId": "DL-8933-2024-05-15-DEN-MSP",
+    "flightCrewId": "8933-2024-05-15-11-DEN",
+    "flightCrewLocalDepartureId": "8933-2024-05-15-DEN",
+    "flightStatusCode": "initial",
+    "flightPhaseCode": null,
+    "flightPhaseNum": 0,
+    "boardingPct": 0,
+    "bagsLoadedPct": 0,
+    "flightInfo": {
+        "scheduledInfo": {
+            "carrierCode": "DL",
+            "flightNum": "8933",
+            "localDepartureDate": "2024-05-15",
+            "flightOriginDate": "2024-05-15",
+            "departureAirportCode": "DEN",
+            "arrivalAirportCode": "MSP",
+            "departureUtcTs": "2024-05-15T17:00:00Z",
+            "departureUtcOffsetTime": "-PT360M",
+            "arrivalUtcTs": "2024-05-15T18:46:00Z",
+            "arrivalUtcOffsetTime": "-PT300M",
+            "lineOfFlightText": "DEN  01MSP  ",
+            "departureUtcOffsetHours": "-06:00",
+            "arrivalUtcOffsetHours": "-05:00"
+        },
+      "operationalInfo": {
+            "carrierCode": "DL",
+            "flightNum": "8933",
+            "localDepartureDate": "2024-05-15",
+            "departureAirportCode": "DEN",
+            "arrivalAirportCode": "MSP",
+            "departureUtcTs": "2024-05-15T17:00:00Z",
+            "departureUtcOffsetTime": "-PT360M",
+            "arrivalUtcOffsetTime": "-PT300M",
+            "loadPlannerId": "CA",
+            "shipNum": "664",
+            "shipTypeCode": "75C",
+            "faaRegistrationNum": "N664DN",
+            "departureGateCode": "TBA",
+            "arrivalGateCode": "TBA",
+            "bdtFleetCode": "75C",
+            "nextLegId": "42024dl-df2cf9af-b2bc-3654-96a0-72cc7d3c892b",
+            "prevLegId": "42024dl-5169e8f8-beec-399d-b18a-0bd542853dc3",
+            "lineOfFlightText": "DEN  01MSP  ",
+            "departureUtcOffsetHours": "-06:00",
+            "arrivalUtcOffsetHours": "-05:00"
+        }
+    },
+    "topicsInfo": [
+        {
+            "id": "maintenance",
+            "name": "Maintenance",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "PL",
+                "LL"
+            ],
+            "toRoles": [
+                "PL",
+                "LL"
+            ]
+        },
+        {
+            "id": "mainlineDutyPilot",
+            "name": "Duty pilot",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "MP"
+            ],
+            "toRoles": [
+                "PL",
+                "MP"
+            ]
+        },
+        {
+            "id": "occFlightControl",
+            "name": "OCC Flight Control",
+            "canSend": true,
+            "offlineRoleCodes": [],
+            "toRoles": [
+                "PL",
+                "SC"
+            ]
+        },
+        {
+            "id": "cateringCSR",
+            "name": "Catering CSR",
+            "canSend": true,
+            "offlineRoleCodes": [],
+            "toRoles": [
+                "SR",
+                "CO",
+                "CT"
+            ]
+        },
+        {
+            "id": "cateringGalleyTruckDriver",
+            "name": "Galley Truck Driver",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "GT"
+            ],
+            "toRoles": [
+                "GT",
+                "SR",
+                "CO",
+                "CT"
+            ]
+        },
+        {
+            "id": "cateringTruckDriver",
+            "name": "Truck Driver",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "TD"
+            ],
+            "toRoles": [
+                "TD",
+                "SR",
+                "CO",
+                "CT"
+            ]
+        },
+        {
+            "id": "cateringKitchenAuditor",
+            "name": "Kitchen Auditor",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "KA"
+            ],
+            "toRoles": [
+                "KA",
+                "SR",
+                "CO",
+                "CT"
+            ]
+        },
+        {
+            "id": "cateringKitchenSupervisor",
+            "name": "Kitchen Supervisor",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "KS"
+            ],
+            "toRoles": [
+                "KS",
+                "SR",
+                "CO",
+                "CT"
+            ]
+        },
+        {
+            "id": "cateringDispatch",
+            "name": "Catering Dispatch",
+            "canSend": false,
+            "offlineRoleCodes": [
+                "DS"
+            ],
+            "toRoles": [
+                "DS",
+                "SR",
+                "CO",
+                "CT"
+            ]
+        }
+    ],
+    "closed": false,
+    "departureEndUtcTs": null,
+    "outUtcTs": null,
+    "offUtcTs": null,
+    "onUtcTs": null,
+    "inUtcTs": null,
+    "archived": false,
+    "crewCheckUtcTs": "2024-05-15T18:02:17Z",
+    "stubbed": false,
+    "presence": [
+        {
+            "roleCode": "AC",
+            "roleName": "ACSOCC",
+            "users": []
+        },
+        {
+            "roleCode": "AG",
+            "roleName": "AOG Desk",
+            "users": []
+        },
+        {
+            "roleCode": "CB",
+            "roleName": "Cabin Cleaning Dispatch",
+            "users": []
+        },
+        {
+            "roleCode": "CM",
+            "roleName": "Cabin Cleaning Mobile",
+            "users": []
+        },
+        {
+            "roleCode": "CT",
+            "roleName": "Catering Tower",
+            "users": []
+        },
+        {
+            "roleCode": "CH",
+            "roleName": "Charter Coordinator",
+            "users": []
+        },
+        {
+            "roleCode": "DD",
+            "roleName": "Cargo DoD",
+            "users": []
+        },
+        {
+            "roleCode": "SR",
+            "roleName": "Catering CSR",
+            "users": []
+        },
+        {
+            "roleCode": "DS",
+            "roleName": "Catering Dispatch",
+            "users": []
+        },
+        {
+            "roleCode": "CL",
+            "roleName": "Central Load Desk",
+            "users": []
+        },
+        {
+            "roleCode": "DP",
+            "roleName": "DutyPilot",
+            "users": []
+        },
+        {
+            "roleCode": "MP",
+            "roleName": "Duty Pilot",
+            "users": []
+        },
+        {
+            "roleCode": "FA",
+            "roleName": "Flight Attendants",
+            "users": []
+        },
+        {
+            "roleCode": "FF",
+            "roleName": "FFC Admin",
+            "users": []
+        },
+        {
+            "roleCode": "GT",
+            "roleName": "Galley Truck Driver",
+            "users": []
+        },
+        {
+            "roleCode": "GA",
+            "roleName": "Gate Agent",
+            "users": []
+        },
+        {
+            "roleCode": "GC",
+            "roleName": "Global Assistance Center",
+            "users": []
+        },
+        {
+            "roleCode": "IF",
+            "roleName": "IFS Operations",
+            "users": []
+        },
+        {
+            "roleCode": "IS",
+            "roleName": "IFS Field Leader",
+            "users": []
+        },
+        {
+            "roleCode": "IM",
+            "roleName": "IFS Leader",
+            "users": []
+        },
+        {
+            "roleCode": "KA",
+            "roleName": "Kitchen Auditor",
+            "users": []
+        },
+        {
+            "roleCode": "KS",
+            "roleName": "Kitchen Supervisor",
+            "users": []
+        },
+        {
+            "roleCode": "AL",
+            "roleName": "Load Agents",
+            "users": []
+        },
+        {
+            "roleCode": "LL",
+            "roleName": "Local Line MTC",
+            "users": []
+        },
+        {
+            "roleCode": "LD",
+            "roleName": "Local Load Desk",
+            "users": []
+        },
+        {
+            "roleCode": "MC",
+            "roleName": "Maintenance Control Center",
+            "users": []
+        },
+        {
+            "roleCode": "CO",
+            "roleName": "OCC Catering",
+            "users": []
+        },
+        {
+            "roleCode": "LP",
+            "roleName": "OCC LCC Load Planner",
+            "users": []
+        },
+        {
+            "roleCode": "LM",
+            "roleName": "OCC LCC Shift Mgr",
+            "users": []
+        },
+        {
+            "roleCode": "HD",
+            "roleName": "OCC Charter Desk",
+            "users": []
+        },
+        {
+            "roleCode": "SE",
+            "roleName": "OCC Corporate Security",
+            "users": []
+        },
+        {
+            "roleCode": "SO",
+            "roleName": "OCC Fleet SOM",
+            "users": []
+        },
+        {
+            "roleCode": "FC",
+            "roleName": "OCC Flight Control",
+            "users": [
+                {
+                    "employeeId": "installapp"
+                }
+            ]
+        },
+        {
+            "roleCode": "SC",
+            "roleName": "OCC flight control",
+            "users": [
+                {
+                    "employeeId": "installapp"
+                }
+            ]
+        },
+        {
+            "roleCode": "OC",
+            "roleName": "OCC",
+            "users": []
+        },
+        {
+            "roleCode": "PL",
+            "roleName": "Pilot",
+            "users": []
+        },
+        {
+            "roleCode": "RE",
+            "roleName": "RES OCC",
+            "users": []
+        },
+        {
+            "roleCode": "RM",
+            "roleName": "Revenue Mgmt Operations",
+            "users": []
+        },
+        {
+            "roleCode": "TD",
+            "roleName": "Truck Driver",
+            "users": []
+        },
+        {
+            "roleCode": "TA",
+            "roleName": "Tower/Ops",
+            "users": []
+        },
+        {
+            "roleCode": "WG",
+            "roleName": "WGS CX Mobility",
+            "users": []
+        },
+        {
+            "roleCode": "ST",
+            "roleName": "SPT",
+            "users": []
+        }
+    ],
+    "cloaked": false,
+    "cloakInfo": {},
+    "id": "42024dl-0063d339-df74-386e-8580-627cc7ade681",
+    "cityPairRange": "678",
+    "_rid": "KzEjANCoRF38JugAAAAAAA==",
+    "_self": "dbs/KzEjAA==/colls/KzEjANCoRF0=/docs/KzEjANCoRF38JugAAAAAAA==/",
+    "_etag": "\"020002fa-0000-0100-0000-66451c890000\"",
+    "_attachments": "attachments/",
+    "_ts": 1715805321
+}
