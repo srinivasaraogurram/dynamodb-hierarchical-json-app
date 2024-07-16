@@ -1,0 +1,61 @@
+{
+    "Flight": {
+      "DL-8933-2024-05-15-DEN-MSP": {
+        "flightInfo": {
+          "operationalInfo": {
+            "carrierCode": "DL",
+            "arrivalAirportCode": "MSP"
+          },
+          "scheduledInfo": {
+            "carrierCode": "DL",
+            "flightOriginDate": "2024-05-15",
+            "arrivalAirportCode": "MSP"
+          }
+        },
+        "presence": {
+          "AC": {
+            "roleCode": "AC",
+            "roleName": "ACSOCC",
+            "Users": {
+              "8065": {
+                "employeeId": "8065",
+                "positionCode": "CR",
+                "positionName": "Catering Region Leadership"
+              },
+              "8067": {
+                "employeeId": "8067",
+                "positionCode": "AG",
+                "positionName": "AOG Desk"
+              }
+            }
+          },
+          "GT": {
+            "roleCode": "GT",
+            "roleName": "Galley Truck Driver",
+            "Users": {
+              "8065": {
+                "employeeId": "8065",
+                "positionCode": "CR",
+                "positionName": "Catering Region Leadership"
+              },
+              "8067": {
+                "employeeId": "8067",
+                "positionCode": "AG",
+                "positionName": "AOG Desk"
+              }
+            }
+          },
+          "SR": {
+            "roleCode": "SR",
+            "roleName": "Catering CSR"
+          }
+        },
+        "topicsInfo": {
+          "cateringCSR": {},
+          "mainlineDutyPilot": {},
+          "maintenance": {},
+          "occFlightControl": {}
+        }
+      }
+    }
+  }
