@@ -1,0 +1,56 @@
+[
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+                    flightTypeCode: 'charter', 
+                    flightScheduledId: 'flightScheduledId',  
+                    flightOperationalId: 'DL-8933-2024-05-15-DEN-MSP'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#flightInfo'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#flightInfo#scheduledInfo', 
+                    carrierCode: 'DL', 
+                    flightNum: '8933', 
+                    flightOriginDate: '2024-05-15',
+                    departureAirportCode: 'DEN',
+                    arrivalAirportCode: 'MSP'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#flightInfo#operationalInfo', 
+                    carrierCode: 'DL', 
+                    flightNum: '8933', 
+                    flightOriginDate: '2024-05-15',
+                    departureAirportCode: 'DEN',
+                    arrivalAirportCode: 'MSP'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence',
+                    roleCode: 'AC', 
+                    roleName: 'ACSOCC'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#Users',
+                    employeeId: '8062',
+                    positionCode: 'CR',
+                    positionName: 'Catering Region Leadership'
+                    
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#Users',
+                    employeeId: 'installApp'
+                    
+    }
+
+]

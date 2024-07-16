@@ -7,7 +7,7 @@ const params = {
     TableName: 'HierarchicalTable',
     KeyConditionExpression: 'PK = :pk',
     ExpressionAttributeValues: {
-        ':pk': 'Company#1'
+        ':pk': 'Flight#DL-8933-2024-05-15-DEN-MSP'
     }
 };
 
@@ -18,6 +18,9 @@ docClient.query(params, (err, data) => {
         console.log('Query succeeded.');
 
         const items = data.Items;
+     // console.log("items", items);
+
+console.log("*************************");
 
         // Transforming the flat list to hierarchical JSON
         const buildHierarchy = items => {
@@ -31,12 +34,22 @@ docClient.query(params, (err, data) => {
                     }
                     currentLevel = currentLevel[part];
                 });
-                currentLevel.Name = item.Name;
+                currentLevel.carrierCode = item.carrierCode;
+                currentLevel.flightNum = item.flightNum;
+                currentLevel.flightOriginDate = item.flightOriginDate;
+                currentLevel.arrivalAirportCode = item.arrivalAirportCode;
+                currentLevel.roleCode = item.roleCode;
+                currentLevel.roleName = item.roleName;
+                currentLevel.employeeId = item.employeeId;
+                currentLevel.positionCode = item.positionCode;
+                currentLevel.positionName = item.positionName;
+
+
             });
             return hierarchy;
         };
 
         const hierarchy = buildHierarchy(items);
-        console.log(JSON.stringify(hierarchy, null, 2));
+       console.log(JSON.stringify(hierarchy, null, 2));
     }
 });
