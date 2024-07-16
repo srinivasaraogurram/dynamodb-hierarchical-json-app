@@ -35,7 +35,6 @@ console.log("*************************");
                     currentLevel = currentLevel[part];
                 });
                 currentLevel.carrierCode = item.carrierCode;
-                currentLevel.flightNum = item.flightNum;
                 currentLevel.flightOriginDate = item.flightOriginDate;
                 currentLevel.arrivalAirportCode = item.arrivalAirportCode;
                 currentLevel.roleCode = item.roleCode;
