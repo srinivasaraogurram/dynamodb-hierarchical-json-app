@@ -80,8 +80,60 @@ const data = [
         PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
         SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#Users#installApp',
                     employeeId: 'installApp'
-                    
-    }
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#0',
+                    roleCode: 'AC',
+                    roleCode: 'ACSOCC'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#0#Users#0',
+                    employeeId: '042184'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#0#Users#2',
+                    employeeId: 'installapp'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#0#Users#3',
+                    employeeId: '630889'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#0#Users#4',
+                    employeeId: '067636'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#1',
+                    roleCode: 'FC',
+                    roleCode: 'OCC Flight Control'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#1#Users#0',
+                    employeeId: '042184'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#1#Users#2',
+                    employeeId: 'installapp'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#2#Users#3',
+                    employeeId: '630889'
+    },
+    { 
+        PK: 'Flight#DL-8933-2024-05-15-DEN-MSP', 
+        SK: 'Flight#DL-8933-2024-05-15-DEN-MSP#presence#3#Users#4',
+                    employeeId: '067636'
+    },
+
 ];
 
 data.forEach(item => {
