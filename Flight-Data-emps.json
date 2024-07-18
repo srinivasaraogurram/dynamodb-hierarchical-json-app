@@ -387,6 +387,9 @@
             ]
         },
         {
+
+           PK, SK ,  roleCode, roleName, employeeId
+
             "roleCode": "FC",
             "roleName": "OCC Flight Control",
             "users": [

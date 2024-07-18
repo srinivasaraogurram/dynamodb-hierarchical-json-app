@@ -1,0 +1,1163 @@
+{
+    "Items": [
+        {
+            "boardingPct": {
+                "N": "0"
+            },
+            "offUtcTs": {
+                "NULL": true
+            },
+            "topicsInfo": {
+                "L": [
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Maintenance"
+                            },
+                            "id": {
+                                "S": "maintenance"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "PL"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "PL"
+                                    },
+                                    {
+                                        "S": "LL"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Duty pilot"
+                            },
+                            "id": {
+                                "S": "mainlineDutyPilot"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "MP"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "PL"
+                                    },
+                                    {
+                                        "S": "MP"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "OCC Flight Control"
+                            },
+                            "id": {
+                                "S": "occFlightControl"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "SC"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "PL"
+                                    },
+                                    {
+                                        "S": "SC"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Catering CSR"
+                            },
+                            "id": {
+                                "S": "cateringCSR"
+                            },
+                            "canSend": {
+                                "BOOL": true
+                            },
+                            "offlineRoleCodes": {
+                                "L": []
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Galley Truck Driver"
+                            },
+                            "id": {
+                                "S": "cateringGalleyTruckDriver"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "GT"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "GT"
+                                    },
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Truck Driver"
+                            },
+                            "id": {
+                                "S": "cateringTruckDriver"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "TD"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "TD"
+                                    },
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Kitchen Auditor"
+                            },
+                            "id": {
+                                "S": "cateringKitchenAuditor"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "KA"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "KA"
+                                    },
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Kitchen Supervisor"
+                            },
+                            "id": {
+                                "S": "cateringKitchenSupervisor"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "KS"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "KS"
+                                    },
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "name": {
+                                "S": "Catering Dispatch"
+                            },
+                            "id": {
+                                "S": "cateringDispatch"
+                            },
+                            "canSend": {
+                                "BOOL": false
+                            },
+                            "offlineRoleCodes": {
+                                "L": [
+                                    {
+                                        "S": "DS"
+                                    }
+                                ]
+                            },
+                            "toRoles": {
+                                "L": [
+                                    {
+                                        "S": "DS"
+                                    },
+                                    {
+                                        "S": "SR"
+                                    },
+                                    {
+                                        "S": "CO"
+                                    },
+                                    {
+                                        "S": "CT"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            },
+            "_etag": {
+                "S": "\"5c053bd1-0000-0100-0000-669859ce0000\""
+            },
+            "onUtcTs": {
+                "NULL": true
+            },
+            "presence": {
+                "L": [
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "ACSOCC"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "ACSOCC Desk 2"
+                                            },
+                                            "positionCode": {
+                                                "S": "D2"
+                                            },
+                                            "employeeId": {
+                                                "S": "916737"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "AC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "AOG Desk"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "AG"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Cabin Cleaning Dispatch"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "CB"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Cabin Cleaning Mobile"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "CM"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Catering Tower"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Tower Coordinator"
+                                            },
+                                            "positionCode": {
+                                                "S": "CC"
+                                            },
+                                            "employeeId": {
+                                                "S": "282537"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Tower Coordinator"
+                                            },
+                                            "positionCode": {
+                                                "S": "CC"
+                                            },
+                                            "employeeId": {
+                                                "S": "408598"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Tower Coordinator"
+                                            },
+                                            "positionCode": {
+                                                "S": "CC"
+                                            },
+                                            "employeeId": {
+                                                "S": "909078"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Tower Coordinator"
+                                            },
+                                            "positionCode": {
+                                                "S": "CC"
+                                            },
+                                            "employeeId": {
+                                                "S": "406245"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Kitchen Dispatcher"
+                                            },
+                                            "positionCode": {
+                                                "S": "CK"
+                                            },
+                                            "employeeId": {
+                                                "S": "2433895"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "positionName": {
+                                                "S": "Catering Tower Coordinator"
+                                            },
+                                            "positionCode": {
+                                                "S": "CC"
+                                            },
+                                            "employeeId": {
+                                                "S": "424924"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "CT"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Charter Coordinator"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "CH"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Cargo DoD"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "DD"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Catering CSR"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "SR"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Catering Dispatch"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "DS"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Central Load Desk"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "CL"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "DutyPilot"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "DP"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Duty Pilot"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "MP"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Flight Attendants"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "FA"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "FFC Admin"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "FF"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Galley Truck Driver"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "GT"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Gate Agent"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "GA"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Global Assistance Center"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "GC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "IFS Operations"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "IF"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "IFS Field Leader"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "IS"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "IFS Leader"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "IM"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Kitchen Auditor"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "KA"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Kitchen Supervisor"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "KS"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Load Agents"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "AL"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Local Line MTC"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "44957"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "511322"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "LL"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Local Load Desk"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "LD"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Maintenance Control Center"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "MC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC Catering"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "CO"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC LCC Load Planner"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "LP"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC LCC Shift Mgr"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "LM"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC Charter Desk"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "HD"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC Corporate Security"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "SE"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC Fleet SOM"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "SO"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC Flight Control"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "FC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC flight control"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "SC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "OCC"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "OC"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Pilot"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "PL"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "RES OCC"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "302237"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "905107"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "RE"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Revenue Mgmt Operations"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "RM"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Truck Driver"
+                            },
+                            "users": {
+                                "L": []
+                            },
+                            "roleCode": {
+                                "S": "TD"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "Tower/Ops"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "105684"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "2585091"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "TA"
+                            }
+                        }
+                    },
+                    {
+                        "M": {
+                            "roleName": {
+                                "S": "WGS CX Mobility"
+                            },
+                            "users": {
+                                "L": [
+                                    {
+                                        "M": {
+                                            "employeeId": {
+                                                "S": "797510"
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "roleCode": {
+                                "S": "WG"
+                            }
+                        }
+                    }
+                ]
+            },
+            "flightScheduledId": {
+                "S": "8969-2024-07-17-ATL"
+            },
+            "_attachments": {
+                "S": "attachments/"
+            },
+            "closed": {
+                "BOOL": false
+            },
+            "archived": {
+                "BOOL": false
+            },
+            "inUtcTs": {
+                "NULL": true
+            },
+            "id": {
+                "S": "62024dl-d73182c9-1f65-3b98-a34e-ffa5a5fa6efc"
+            },
+            "outUtcTs": {
+                "NULL": true
+            },
+            "cloakInfo": {
+                "M": {}
+            },
+            "departureEndUtcTs": {
+                "NULL": true
+            },
+            "crewCheckUtcTs": {
+                "S": "2024-07-17T16:50:21Z"
+            },
+            "flightTypeCode": {
+                "S": "charter"
+            },
+            "flightPhaseCode": {
+                "NULL": true
+            },
+            "flightCrewId": {
+                "S": "8969-2024-07-17-12-ATL"
+            },
+            "stubbed": {
+                "BOOL": false
+            },
+            "cityPairRange": {
+                "NULL": true
+            },
+            "_self": {
+                "S": "dbs/ATMzAA==/colls/ATMzANsrMXA=/docs/ATMzANsrMXB+DgMBAAAAAA==/"
+            },
+            "cloaked": {
+                "BOOL": false
+            },
+            "flightOperationalId": {
+                "S": "DL-8969-2024-07-17-ATL-LFI"
+            },
+            "flightPhaseNum": {
+                "N": "0"
+            },
+            "_rid": {
+                "S": "ATMzANsrMXB+DgMBAAAAAA=="
+            },
+            "flightStatusCode": {
+                "S": "initial"
+            },
+            "bagsLoadedPct": {
+                "N": "0"
+            },
+            "flightCrewLocalDepartureId": {
+                "S": "8969-2024-07-17-ATL"
+            },
+            "_ts": {
+                "N": "1721260494"
+            },
+            "flightInfo": {
+                "M": {
+                    "scheduledInfo": {
+                        "M": {
+                            "departureUtcOffsetHours": {
+                                "S": "-04:00"
+                            },
+                            "flightOriginDate": {
+                                "S": "2024-07-17"
+                            },
+                            "arrivalAirportCode": {
+                                "S": "LFI"
+                            },
+                            "lineOfFlightText": {
+                                "S": "ATL  01LFI  01LSV  "
+                            },
+                            "arrivalUtcOffsetTime": {
+                                "S": "-PT240M"
+                            },
+                            "arrivalUtcTs": {
+                                "S": "2024-07-17T18:00:00Z"
+                            },
+                            "flightNum": {
+                                "S": "8969"
+                            },
+                            "arrivalUtcOffsetHours": {
+                                "S": "-04:00"
+                            },
+                            "carrierCode": {
+                                "S": "DL"
+                            },
+                            "departureUtcTs": {
+                                "S": "2024-07-17T16:30:00Z"
+                            },
+                            "departureUtcOffsetTime": {
+                                "S": "-PT240M"
+                            },
+                            "departureAirportCode": {
+                                "S": "ATL"
+                            },
+                            "localDepartureDate": {
+                                "S": "2024-07-17"
+                            }
+                        }
+                    },
+                    "operationalInfo": {
+                        "M": {
+                            "departureUtcOffsetHours": {
+                                "S": "-04:00"
+                            },
+                            "flightNum": {
+                                "S": "8969"
+                            },
+                            "arrivalAirportCode": {
+                                "S": "LFI"
+                            },
+                            "arrivalUtcOffsetHours": {
+                                "S": "-04:00"
+                            },
+                            "carrierCode": {
+                                "S": "DL"
+                            },
+                            "departureUtcTs": {
+                                "S": "2024-07-17T16:30:00Z"
+                            },
+                            "arrivalUtcOffsetTime": {
+                                "S": "-PT240M"
+                            },
+                            "departureUtcOffsetTime": {
+                                "S": "-PT240M"
+                            },
+                            "bdtFleetCode": {
+                                "NULL": true
+                            },
+                            "departureAirportCode": {
+                                "S": "ATL"
+                            },
+                            "localDepartureDate": {
+                                "S": "2024-07-17"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ],
+    "Count": 1,
+    "ScannedCount": 5,
+    "ConsumedCapacity": null
+}

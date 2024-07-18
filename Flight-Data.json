@@ -179,8 +179,10 @@
         {
             "roleCode": "AC",
             "roleName": "ACSOCC",
-            "users": []
+            "users": ["Srinivas", "Sri"]
         },
+
+        presence#AC#ACSOCC#Srinivas,  presence#AC#ACSOCC#Sri
         {
             "roleCode": "AG",
             "roleName": "AOG Desk",
